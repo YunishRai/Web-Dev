@@ -64,6 +64,30 @@ nav ul li a:hover {
     font-size: 20px;
 }
 
+.socialMedia {
+    font-size: 35px;
+    padding: 25px 10px;
+}
+
+.socialMedia i {
+    background-color: #c0c0c0;
+    color: #072132;
+    padding: 5px;
+    border-radius: 50%;
+    border: solid #c0c0c0;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.socialMedia i:hover {
+    background-color: #072132;
+    color: #c0c0c0;
+    cursor: pointer;
+}
+
+
+
+
+
 
 
 /* project */
@@ -128,3 +152,4 @@ nav ul li a:hover {
     border-radius: 20px;
     padding: 15px;
 }
+
