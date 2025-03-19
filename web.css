@@ -29,7 +29,7 @@ nav ul li {
 .logo {
     color: #c0c0c0;
     font-family: playpen sans , sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 nav ul li a:hover {
@@ -43,6 +43,28 @@ nav ul li a:hover {
     background-color: #c0c0c0;
     border-radius: 30px;
 }
+
+/* Home */
+
+.indexMain {
+    text-align: center;
+    align-items: center;
+    color: #c0c0c0;
+    padding-top: 4em;
+}
+
+.indexMain h1 {
+    font-size: 45px;
+    font-family: pattaya, sans-serif;
+}
+
+.indexMain p {
+    font-family: playpen sans, sans-serif;
+    padding: 0px 10em;
+    font-size: 20px;
+}
+
+
 
 /* project */
 /* .projectNav {
