@@ -153,3 +153,54 @@ nav ul li a:hover {
     padding: 15px;
 }
 
+
+/* report */
+
+.reportMain {
+    background-color: white;
+    padding: 10px 25px;
+    margin: 5px 22%;
+}
+
+.reportMain p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.reportMain img {
+    width: 750px;
+    display: block;
+    align-self: center;
+    margin: auto;
+}
+
+.reportMain h1, h2 {
+    font-family: pattaya ,sans-serif;
+}
+
+/* Contact */
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0c4c6c;
+    padding: 10px;
+    margin: auto 30em;
+    border-radius: 25px;
+}
+
+.contactForm label,h2 {
+    color: #c0c0c0;
+}
+
+.contactForm label {
+    font-size: 20px;
+}
+
+.contactForm input {
+    width: 20em;
+    padding: 5px;
+    margin: 5px;
+}
