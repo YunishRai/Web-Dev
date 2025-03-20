@@ -177,6 +177,7 @@ nav ul li a:hover {
 
 .reportMain h1, h2 {
     font-family: pattaya ,sans-serif;
+    color: #072132;
 }
 
 /* Contact */
@@ -191,7 +192,11 @@ nav ul li a:hover {
     border-radius: 25px;
 }
 
-.contactForm label,h2 {
+.contactForm label{
+    color: #c0c0c0;
+}
+
+.contactForm h2 {
     color: #c0c0c0;
 }
 
@@ -203,4 +208,21 @@ nav ul li a:hover {
     width: 20em;
     padding: 5px;
     margin: 5px;
+}
+
+input[type="submit"] {
+    color: #072132;
+    transition: all 0.5s ease-in-out 0s;
+    border-radius: 25px;
+    border: solid white;
+
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background-color: #0c4c6c;
+    cursor: pointer;
+
+
+    
 }
