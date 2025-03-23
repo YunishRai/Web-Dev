@@ -5,22 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="web.css">
-    <link rel="stylesheet" href="mobile.csss">
+    <link rel="stylesheet" href="web.css" media="screen and (min-width: 1000px)">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 1000px)">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <section class="project">
-    <nav class="projectNav">
-        <a href="index.html" class="logo">Unish Rai</a>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="project.html"Class="active">Project</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="demo.html">Demo</a></li>
-            <li><a href="report.html">Report</a></li>
-        </ul>
-    </nav>
-    <main class="projectMain">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">☰</label>
+        
+        <nav class="mobile-nav">
+            <label for="menu-toggle" class="close-btn">×</label>
+            <a href="index.html" class="logo">Unish Rai</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html" class="active">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="demo.html">Demo</a></li>
+                <li><a href="report.html">Report</a></li>
+            </ul>
+        </nav>
+    <main class= "projectMain"> 
         <div class="firstProject">
             <h2>YouTube</h2>
             <p>YouTube is an American social media and online video sharing platform owned by Google. YouTube was founded on February 14, 2005, by Steve Chen, Chad Hurley, and Jawed Karim, three former employees of PayPal. Headquartered in San Bruno, California, it is the second-most-visited website in the world, after Google Search. In January 2024, YouTube had more than 2.7 billion monthly active users, who collectively watched more than one billion hours of videos every day. As of May 2019, videos were being uploaded to the platform at a rate of more than 500 hours of content per minute, and as of mid-2024, there were approximately 14.8 billion videos in total.</p>
@@ -38,6 +42,5 @@
             <p>TikTok has become one of the world's most popular social media platforms, using recommendation algorithms to connect content creators and influencers with new audiences.In April 2020, TikTok surpassed two billion mobile downloads worldwide. Cloudflare ranked TikTok the most popular website of 2021, surpassing Google. The popularity of TikTok has allowed viral trends in food, fashion, and music to take off and increase the platform's cultural impact worldwide.</p>
         </div>
     </main>
-</section>
 </body>
 </html>

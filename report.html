@@ -5,18 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="mobile.css">
-    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="web.css" media="screen and (min-width: 1000px)">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 1000px)">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <nav>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="hamburger">☰</label>
+    
+    <nav class="mobile-nav">
+        <label for="menu-toggle" class="close-btn">×</label>
         <a href="index.html" class="logo">Unish Rai</a>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="project.html">Project</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="demo.html">Demo</a></li>
-            <li><a href="report.html"Class="active">Report</a></li>
+            <li><a href="report.html" class="active">Report</a></li>
         </ul>
     </nav>
     <main class="reportMain">
@@ -30,6 +35,23 @@
         <p>I dicided to go with dark background which would look attractive with light content.</p>
         <h2>Validation Screenshot</h2>
         <p>Below are all the vallidation screenshot of the HTML and CSS</p>
+        <h2>Index</h2>
+        <img src="img/index.png" alt="">
+        <h2>Contact</h2>
+        <img src="img/contact.png" alt="">
+        <h2>Demo</h2>
+        <img src="img/demo.png" alt="">
+        <h2>Project</h2>
+        <img src="img/project.png" alt="">
+        <h2>Report</h2>
+        <img src="img/report.png" alt="">
+        <h2>Same css</h2>
+        <img src="img/styles.png" alt="">
+        <h2>Mobile css</h2>
+        <img src="img/mobile.png" alt="">
+        <h2>Desktop CSS</h2>
+        <img src="img/web.png" alt="">
+
     </main>
 </body>
 </html>
